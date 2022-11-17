@@ -22,10 +22,10 @@ function App() {
           <h3>In order to use this application please provide a TK study of abdomen in a DICOM format.</h3>
         </div>
         <div>
-          <a href={process.env.LOCAL}>
+          <a href="http://172.20.97.103:3040/local">
             <Button> I have my own data </Button>
           </a>
-          <a href={process.env.STUDY_LIST_URL}>
+          <a href="http://172.20.97.103:3040/">
             <Button> Study List </Button>
           </a>
         </div>
